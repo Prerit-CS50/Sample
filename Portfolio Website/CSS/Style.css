@@ -1,0 +1,567 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic Styling */
+body {
+    font-family:  'Times New Roman', Times, serif;
+    color: #000000;
+    background-color: #e2fff7;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: #5900ff;
+}
+
+/* Header Styling */
+header {
+    background: #000000;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #d7f8e2;
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.header-image {
+    position: relative;
+    margin-top: 1rem;
+}
+
+.header-image img {
+    width: 100%;
+    height: 500px;
+}
+
+.profile {
+    background: linear-gradient(to right, #a3e1f2, #c4f5c6);
+
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.profile p {
+    margin-top: 20px;
+}
+.name{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    word-spacing: 2.5px;
+    color: #000000;
+}
+.position{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    word-spacing: 2.5px;
+    color: #000000;
+    padding-bottom: 10px;
+}
+
+/* ABOUT */
+/* Section Styling */
+#about {
+    padding-top: 70px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    text-align: center; 
+    padding-top: 40PX;
+}
+
+/* Heading Styling */
+.about-me {
+    font-size: 30px; 
+    margin-bottom: 1rem; 
+}
+
+/* Paragraph Styling */
+.description {
+    font-size: 18px; 
+    line-height: 1.5; 
+    text-align: justify; 
+    max-width: 1500px; 
+    margin: 0 auto; 
+}
+
+
+/* BACKGROUND */
+/* Section Styling */
+#background {
+   padding-left: 155px;
+   padding-right: 155px;
+    text-align: center;
+}
+
+/* Title Styling */
+.section-title {
+    font-size: 30px; 
+    margin-bottom: 20px; 
+}
+
+/* Background Content Styling */
+.background-content {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: center; 
+}
+
+/* Individual Item Styling */
+.background-item {
+    flex: 1 1 160px; 
+    text-align: center; 
+    padding: 20px; 
+    background: #bcf2d0; 
+    border-radius: 10px; 
+    box-shadow: 0 2.5px 4.6px rgba(109, 19, 188, 0.558); 
+}
+.edu1{
+    font-size: 24px;
+    color: #000000;
+}
+.degree{
+    font-size: 18px;
+    color: #000000;
+}
+
+/* Expand Styling for the Last Item */
+.background-item--expanded {
+    flex-basis: 100%; 
+}
+.edu2{
+    font-size: 18px;
+    color: #000000;
+    line-height: 2;
+    text-align: left;
+}
+.edu3{
+    font-size: 20px;
+    color: #000000;
+    font-weight: 700;
+    font-style: italic;
+    padding-top: 20px;
+}
+/* List Styling */
+.background-item ul {
+    list-style: disc; 
+    margin-left: 1.5rem; 
+    padding-top: 20px;
+}
+/* PERSONAL INTEREST */
+/* Section Styling */
+#interests {
+    padding-top: 70px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    text-align: center; 
+}
+
+/* Title Styling */
+.personal {
+    font-size: 30px; 
+    margin-bottom: 20PX; 
+}
+
+/* Paragraph Styling */
+.interest {
+    font-size: 18px; 
+    line-height: 1.5; 
+    text-align: justify; 
+    max-width: 1500px; 
+    margin: 0 auto; 
+}
+
+
+
+/* TASK_1 */
+/* Section Styling */
+#work {
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Title Styling */
+#work h1 {
+    font-size: 30px; 
+    margin-bottom: 20PX; 
+}
+
+/* Project Item Styling */
+.project1 {
+    padding: 20PX;
+    margin-bottom: 40PX; 
+    background: #dbf5cc; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+/* Task Title Styling */
+.task1 {
+    font-size: 20px; 
+    text-align: center; 
+    margin-bottom: 20PX;
+}
+/* Task Image Styling */
+.taskimg {
+    display: block; 
+    margin: 0 auto; 
+    height: 500PX; 
+    width: 700PX;
+    margin-bottom: 20PX; 
+
+}
+
+/* Task Description Styling */
+.taskdescription {
+    font-size: 18px; 
+    line-height: 1.5; /
+    text-align: justify; 
+    margin-bottom: 1rem; 
+    max-width: 1500px; 
+    margin: 0 auto; 
+    padding-bottom: 40PX;
+}
+
+/* GitHub Link Styling */
+.project1 a {
+    display: inline-block; /* Makes the link an inline block element */
+    text-align: center; /* Centers the link text */
+    margin: 0 auto; /* Centers the link */
+    padding: 0.5rem 1rem; /* Adds padding to the link */
+    background: #4c25a5; /* Background colour for the link */
+    color: #fff; /* Text colour for the link */
+    text-decoration: none; /* Removes underline from the link */
+    border-radius: 4px; /* Rounds corners of the link */
+    transition: background 0.3s; /* Adds a transition effect */
+}
+
+/* GitHub Link Hover Effect */
+.project a:hover {
+    background: #4c25a5; /* Changes background colour on hover */
+}
+
+
+
+/* TASK_2 */
+/* Section Styling */
+#work {
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Title Styling */
+#work h1 {
+    font-size: 30px; 
+    margin-bottom: 20PX; 
+}
+
+/* Project Item Styling */
+.project2 {
+    padding: 20PX;
+    margin-bottom: 40PX; 
+    background: #f4d5c0; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+/* Task Title Styling */
+.task1 {
+    font-size: 20px; 
+    text-align: center; 
+    margin-bottom: 20PX;
+}
+/* Task Image Styling */
+.taskimg {
+    display: block; 
+    margin: 0 auto; 
+    height: 500PX; 
+    width: 700PX; 
+    margin-bottom: 20PX; 
+}
+
+/* Task Description Styling */
+.taskdescription {
+    font-size: 18px; 
+    line-height: 1.5; /
+    text-align: justify; 
+    margin-bottom: 1rem; 
+    max-width: 1500px; 
+    margin: 0 auto; 
+    padding-bottom: 40PX;
+}
+
+/* GitHub Link Styling */
+.project2 a {
+    display: inline-block; 
+    text-align: center; 
+    margin: 0 auto; 
+    padding: 0.5rem 1rem; 
+    background: #4c25a5; 
+    color: #fff; 
+    text-decoration: none; 
+    border-radius: 4px; 
+    transition: background 0.3s; 
+}
+
+/* GitHub Link Hover Effect */
+.project a:hover {
+    background: #4c25a5; 
+}
+
+
+/* TASK_2 */
+/* Section Styling */
+#work {
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Title Styling */
+#work h1 {
+    font-size: 30px; 
+    margin-bottom: 20PX; 
+}
+
+/* Project Item Styling */
+.project3 {
+    padding: 20PX;
+    margin-bottom: 40PX; 
+    background: #9bd5fb; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+/* Task Title Styling */
+.task1 {
+    font-size: 20px; 
+    text-align: center; 
+    margin-bottom: 20PX;
+}
+/* Task Image Styling */
+.taskimg {
+    display: block; 
+    margin: 0 auto; 
+    height: 450PX; 
+    width: 700PX; 
+    margin-bottom: 20PX; 
+}
+
+/* Task Description Styling */
+.taskdescription {
+    font-size: 18px; 
+    line-height: 1.5; /
+    text-align: justify; 
+    margin-bottom: 1rem; 
+    max-width: 1500px; 
+    margin: 0 auto; 
+    padding-bottom: 40PX;
+}
+
+/* GitHub Link Styling */
+.project3 a {
+    display: inline-block; 
+    text-align: center; 
+    margin: 0 auto; 
+    padding: 0.5rem 1rem; 
+    background: #4c25a5; 
+    color: #fff; 
+    text-decoration: none; 
+    border-radius: 4px; 
+    transition: background 0.3s; 
+}
+
+/* GitHub Link Hover Effect */
+.project a:hover {
+    background: #4c25a5; 
+}
+
+
+
+
+/* CONTACT */
+/* Section Styling */
+#contact {
+    padding: 2rem;
+    text-align: center; 
+}
+
+/* Title Styling */
+.contact {
+    font-size: 30px; 
+    margin-bottom: 20px;
+}
+
+/* Contact Info Styling */
+.contact1 {
+    display: inline-block; 
+    margin: 0 7rem; 
+    font-size: 18px;
+}
+
+/* Form Styling */
+.contactform {
+    margin-top: 2rem; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contactform label, 
+.contactform input, 
+.contactform textarea {
+    display: block;
+    margin: 0.5rem 0; 
+    width: 100%;
+    max-width: 500px; 
+}
+
+.contactform .name-email-wrapper {
+    display: flex;
+    gap: 1rem; 
+    width: 100%; 
+    max-width: 700px; 
+}
+
+.contactform .name-email-wrapper > div {
+    flex: 1; 
+}
+
+.contactform input[type="text"],
+.contactform input[type="email"] {
+    padding: 0.5rem; 
+    width: 100%; 
+    box-sizing: border-box; 
+    max-width: 700px; 
+}
+
+.contactform textarea {
+    height: 100px; 
+    padding: 0.5rem; 
+    resize: vertical;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 1100px; 
+}
+
+.contactform input[type="submit"] {
+    padding: 0.5rem 1rem; 
+    background: #0d6628; 
+    color: #fff;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background 0.3s; 
+    margin-top: 20px; 
+    font-size: 10px;
+}
+
+.contactform input[type="submit"]:hover {
+    background: #0d6628; 
+}
+
+/* GALLERY */
+
+/* Section Styling */
+#gallery {
+    text-align: center;
+    padding: 2rem; 
+}
+
+/* Title Styling */
+.Imagegallery {
+    font-size: 30px;
+    margin-bottom: 1rem;
+    padding-bottom: 40px;
+}
+
+/* Gallery Styling */
+.gallery {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 1.5rem; 
+}
+
+.galimg1, .galimg2, .galimg3 {
+    height: 200px; 
+    width: 300px; 
+    object-fit: cover; 
+}
+
+.galimg1 {
+    order: 1; 
+}
+
+.galimg2 {
+    order: 2; 
+    margin-top: 1rem; 
+}
+
+.galimg3 {
+    order: 3; 
+    margin-top: 1rem; 
+}
+
+
+/* FOOTER */
+
+/* Footer Styling */
+footer {
+    text-align: center; /* Centres the text */
+    padding: 1rem; 
+    background-color: #af1afa; 
+}
+
+/* Paragraph and Link Styling */
+footer p {
+    margin: 0.5rem 0; 
+}
+
+/* First Paragraph Styling */
+footer p:nth-of-type(1) {
+    font-size: 15px; 
+}
+
+/* Second and Third Paragraph Styling */
+footer p:nth-of-type(2), footer p:nth-of-type(3) {
+    font-size: 20px; 
+}
+
+/* Social Media Icon Styling */
+footer a img {
+    width: 20px; 
+    height: 20px; 
+    border-radius: 50%; 
+    margin: 0 5px; 
+}

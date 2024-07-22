@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-image">
+            <img src="Images/Header.jpg" alt="Header Image">
+        </div>
+        <div class="profile">
+            <img src="Images/profile.jpg" alt="Profile Photo">
+            <p class="name">Hey, I’m Prerit</p>
+            <p class="position">Bachelor’s of Engineering (Software Engineering) Hons.</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <h1 class="about-me">ABOUT ME</h1>
+            <p class="description">Hello! My name is Prerit Jaiswal, and I am an aspiring full-stack developer with a
+                passion for creating
+                dynamic and responsive web applications. I have a solid background in [Your Background], which has
+                allowed me to develop strong skills in HTML, CSS, and JavaScript, along with various backend
+                technologies. My experience includes building and maintaining web applications, ensuring they are both
+                functional and user-friendly. I thrive on solving complex problems and continuously improving my
+                technical abilities. I am eager to leverage my skills to contribute to innovative projects and advance
+                in the field of web development.</p>
+        </section>
+
+        <section id="background">
+            <h2 class="section-title">BACKGROUND</h2>
+            <div class="background-content">
+                <div class="background-item">
+                    <h3 class="edu1">Education</h3>
+                    <p class="degree">Bachelor’s Degree in Software Engineering (Hons.), Deakin University, 2027</p>
+                </div>
+                <div class="background-item">
+                    <h3 class="edu1">Certifications</h3>
+                    <p class="degree">CS50: Introduction to Computer Science (Python), Harvard University, 2022</p>
+                </div>
+                <div class="background-item background-item--expanded">
+                    <h3 class="edu1">Professional Experience</h3>
+                    <p class="edu3">Consultant at Optus, 2023 - Present</p>
+                    <ul>
+                        <li class="edu2">Created and managed web applications with JavaScript and React, focusing on development and
+                            maintenance for enhanced functionality and performance.</li>
+                        <li class="edu2">Worked closely with cross-functional teams to ensure the successful delivery of high-quality
+                            products, enhancing collaboration, integrating diverse expertise, and achieving shared goals
+                            through effective communication and teamwork.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="interests">
+            <h2 class="personal">PERSONAL INTERESTS</h2>
+            <p class="interest">In my free time, I enjoy hiking, photography, and cooking. Hiking allows me to explore nature, stay
+                active, and clear my mind. Photography helps me capture and appreciate the beauty around me, enhancing
+                my attention to detail. Cooking is a creative outlet where I experiment with new recipes and flavours,
+                which improves my problem-solving skills and patience. These hobbies not only provide a balanced
+                lifestyle but also keep me inspired and motivated in my professional life. They teach me valuable
+                lessons in perseverance, creativity, and mindfulness that I bring into my work as a full-stack
+                developer.</p>
+        </section>
+
+        <section id="work">
+            <h1>PROJECTS</h1>
+            <div class="project1">
+                <h3 class="task1">1. Task Manager Web Application</h3>
+                <img class="taskimg" src="Images/P1.jpg" alt="Project 1">
+                <p class="taskdescription">The project is a task manager web application that streamlines daily tasks management. Built using
+                    React and Node.js, it offers a user-friendly interface for adding, editing, deleting, and
+                    prioritizing tasks. It includes user authentication for secure storage and MongoDB for reliable data
+                    storage. The project showcases the ability to create responsive, user-friendly web applications for
+                    productivity.</p>
+                <a href="https://github.com/yourusername/project1">View on GitHub</a>
+            </div>
+            <div class="project2">
+                <h3 class="task1">2. E-commerce Website</h3>
+                <img class="taskimg" src="Images/p2.jpg" alt="Project 2">
+                <p class="taskdescription">The e-commerce website offers a diverse range of products, with a visually appealing frontend using
+                    HTML, CSS, and JavaScript. The backend, powered by Node.js and Express, handles user authentication,
+                    product management, and order processing. It integrates with a secure payment gateway for a smooth
+                    shopping experience. The project showcases full-stack development skills.</p>
+                <a href="https://github.com/yourusername/project2">View on GitHub</a>
+            </div>
+            <div class="project3">
+                <h3 class="task1">3. Social Media Platform</h3>
+                <img class="taskimg" src="Images/p3.jpg" alt="Project 3">
+                <p class="taskdescription">The project is a social media platform that allows users to connect, share content, and engage. Built
+                    with a React frontend and Node.js backend, it offers real-time updates, seamless performance, secure
+                    access, and data protection. It uses MongoDB for efficient data handling. The project showcases
+                    expertise in interactive web applications.</p>
+                <a href="https://github.com/yourusername/project2">View on GitHub</a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h1 class="contact">CONTACT ME</h1>
+            <p class="contact1">Email: <a href="mailto:jaiswalprerit@gmail.com">jaiswalprerit@gmail.com</a></p>
+            <p class="contact1">LinkedIn: <a href="https://www.linkedin.com/in/prerit-jaiswal">https://www.linkedin.com/in/prerit-jaiswal</a></p>
+            <form class="contactform" action="submit_form.php" method="post">
+                <div class="name-email-wrapper">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        
+
+        <section id="gallery">
+            <h1 class="Imagegallery">Image Gallery</h1>
+            <div class="gallery">
+                <img class="galimg1" src="Images/galleryimg1.jpg" alt="Image 1">
+                <img class="galimg1" src="Images/galleryimg2.jpg" alt="Image 2">
+                <img class="galimg1" src="Images/galleryimg3.jpg" alt="Image 3">
+                <img class="galimg2" src="Images/galleryimg4.jpg" alt="Image 4">
+                <img class="galimg2" src="Images/galleryimg5.jpg" alt="Image 5">
+                <img class="galimg2" src="Images/galleryimg6.jpg" alt="Image 6">
+                <img class="galimg3" src="Images/galleryimg7.jpg" alt="Image 7">
+            </div>
+        </section>        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 [Prerit Jaiswal]. All rights reserved.</p>
+        <p>
+            Contact me at: <a href="mailto:jaiswalprerit@gmail.com">jaiswalprerit@gmail.com</a> |
+            Phone: <a href="tel:+1234567890">0417990178</a>
+        </p>
+        <p>Follow me on:
+            <a href="https://twitter.com/Prerit75271910">
+                <img src="Images/twi.jpg" alt="Twitter">
+            </a>
+            <a href="https://www.linkedin.com/in/prerit-jaiswal">
+                <img src="Images/link.webp" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/Prerit-CS50">
+                <img src="Images/git.jpg" alt="GitHub">
+            </a>
+        </p>
+    </footer>    
+
+</body>
+
+</html>
